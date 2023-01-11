@@ -1,0 +1,106 @@
+html {
+  box-sizing: border-box;
+  font-family:"karla";
+  font-size:19px;
+}
+
+*,*:before, *:after {
+  box-sizing:inherit;
+}
+
+body {
+  padding:30px;
+  background-color: #e7eff7;
+}
+
+#card {
+  width:1080px;
+  height:600px;
+  box-shadow: 10px -17px 33px 0px rgba(0,0,0,0.42);
+}
+
+#top {
+  width:100%;
+  height:45%;
+  background-color:white;
+  border-radius: 10px 10px 0px 0px;
+  padding:30px;
+}
+
+#bottom {
+  width:100%;
+  height:55%;
+  overflow:hidden;
+  color:white;
+}
+
+#left {
+  display: inline-block;
+  width:50%;
+  height:100%;
+  background-color: #2bb2b0;
+  vertical-align:top;
+  border-radius: 0px 0px 0px 10px;
+  padding:40px;
+}
+
+#right {
+  display: inline-block;
+  width:50%;
+  height:100%;
+  background-color: #4abebd;
+  border-radius: 0px 0px 10px 0px;
+  padding:30px;
+}
+
+#join {
+  color: #2ab2af;
+  margin-bottom:20px;
+  font-size: 2rem;
+  margin-top: 10px;
+}
+
+#day {
+  color: #c0df34;
+  margin-bottom:15px;
+}
+
+.gain {
+  color: #98a6bd;
+}
+
+#butt {
+  background-color: #c0df34;
+  color:white;
+  border: none;
+  width:100%;
+  padding: 25px;
+  border-radius:8px;
+}
+
+#lol {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-top:10px
+}
+
+#month {
+  font-size: 1.3rem;
+  margin:-5px;
+  
+}
+
+#lol, lel {
+  display:inline-block;
+}
+
+ul {
+  padding:0px;
+  list-style:none;
+  font-size:0.9rem;
+  opacity:0.8;
+}
+
+.righty {
+  margin-left: 30px;
+}
